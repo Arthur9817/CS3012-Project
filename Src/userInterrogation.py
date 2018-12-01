@@ -1,6 +1,7 @@
 from github import Github
 import getpass
- user = False
+
+user = False
 while(not user):
     username = input("Enter your Github Username:\n")
     password = getpass.getpass(prompt='Enter your password:\n')
@@ -11,7 +12,7 @@ while(not user):
         print("Try again")
  # print username
 user = g.get_user()
-print(user.login + "\n")
+print("Username:\n"+ user.login + "\n\nRepos:")
  # print repos
 for repo in g.get_user().get_repos():
     print(repo.name)
