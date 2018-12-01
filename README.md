@@ -3,4 +3,6 @@
 2.  Interrogate the GitHub API to build visualisation of data     available that elucidates some aspect of the software engineering process, such as a social graph of developers and projects, or a visualisation of individual of team performance. Provide a visualisation of this using the d3js library. See https://d3js.org.
 
 ### Part one
-This program allows you to login with your GitHub account and will print out your username and all of your repositories. [userInterrogation.py](https://github.com/Arthur9817/CS3012-Project/blob/master/Src/userInterrogation.py) 
+This program allows you to login with your GitHub account and will print out your username and all of your repositories.
+Using '[userInterrogation.py](https://github.com/Arthur9817/CS3012-Project/blob/master/Src/userInterrogation.py)'.
+![alt text](https://github.com/Arthur9817/CS3012-Project/blob/master/Images/userInterrogation.png)
