@@ -1,7 +1,6 @@
 import requests
 import csv
 
-
 def main():
     repo_list = []
     stars_list = []
